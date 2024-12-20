@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stream Cipher Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Потоковый шифр</h1>
+        <textarea id="inputText" placeholder="Введите текст для шифрования"></textarea>
+        <div class="key-container">
+            <input type="text" id="key" placeholder="Введите ключ" />
+            <button id="generateKey">Сгенерировать ключ</button>
+        </div>
+        <button id="encrypt">Зашифровать</button>
+        <button id="decrypt">Расшифровать</button>
+        <textarea id="outputText" placeholder="Результат"></textarea>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
